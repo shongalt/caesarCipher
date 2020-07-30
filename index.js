@@ -1,4 +1,7 @@
-import { greeting } from './greet'
+import {caesarCipher} from './algorithms'
 
-console.log(greeting())
+const alphabet = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'
+const text = 'hola como'
+const key = 1
 
+console.log(caesarCipher(text,key))

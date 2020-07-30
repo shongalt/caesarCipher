@@ -1,11 +1,25 @@
 {
+  "name": "babel-nodemon",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --exec babel-node"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shongalt/babel-nodemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shongalt/babel-nodemon/issues"
+  },
+  "homepage": "https://github.com/shongalt/babel-nodemon#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "nodemon": "^1.19.2"
+    "nodemon": "^2.0.4"
   }
 }
